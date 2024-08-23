@@ -1,0 +1,56 @@
+{
+  "accentColor": "#d4cab8",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 72,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{appsmith.store.gender == \"female\" ? 'F' : 'M'}}",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rdqw0n133t",
+  "label": "Gender",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Male",
+      "value": "M"
+    },
+    {
+      "label": "Female",
+      "value": "F"
+    }
+  ],
+  "parentColumnSpace": 13.75,
+  "parentId": "ijtgmtni2k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 20,
+  "searchTags": [
+    "choice"
+  ],
+  "topRow": 64,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "4bqyoh6ydq",
+  "widgetName": "RadioGroup"
+}

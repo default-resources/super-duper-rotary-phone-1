@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 53,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "LLL",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{appsmith.store.dob}}",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "x339tqgav5",
+  "label": "Date of birth",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextColor": "#1d4ed8",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "6",
+  "leftColumn": 0,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.75,
+  "parentId": "ijtgmtni2k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 25,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": true,
+  "timePrecision": "minute",
+  "topRow": 49,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "v1h32cg7fe",
+  "widgetName": "DatePicker1"
+}

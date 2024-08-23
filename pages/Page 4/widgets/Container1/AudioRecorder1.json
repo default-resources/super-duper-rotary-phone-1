@@ -1,0 +1,53 @@
+{
+  "accentColor": "{{appsmith.store.contrast}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "displayName": "Audio Recorder",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconColor": "#fafafa",
+  "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.visible}}",
+  "key": "ikj1vq2v1h",
+  "leftColumn": 0,
+  "originalBottomRow": 11,
+  "originalTopRow": 4,
+  "parentColumnSpace": 3.9551331102848053,
+  "parentId": "em3f3sredw",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "sound recorder",
+    "voice recorder"
+  ],
+  "topRow": 5,
+  "type": "AUDIO_RECORDER_WIDGET",
+  "version": 1,
+  "widgetId": "vzvsrip3yr",
+  "widgetName": "AudioRecorder1"
+}

@@ -1,0 +1,50 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 15,
+  "defaultValue": "50",
+  "displayName": "Number Slider",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.f122000eb591fcd1410a4775a54f9f0d.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xaii5tvmff",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD,ITALIC",
+  "labelText": "select a number you want to countdown from",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 0,
+  "marks": "[\n  {\n    \"value\": 25,\n    \"label\": \"25\"\n  },\n  {\n    \"value\": 50,\n    \"label\": \"50\"\n  },\n  {\n    \"value\": 75,\n    \"label\": \"75\"\n  }\n]",
+  "max": 100,
+  "min": 0,
+  "parentColumnSpace": 5.053781196475029,
+  "parentId": "zap3upnpc9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "range"
+  ],
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 7,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "krvk4jsa77",
+  "widgetName": "NumberSlider1"
+}

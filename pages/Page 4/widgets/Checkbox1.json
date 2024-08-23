@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.store.contrast}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "defaultCheckedState": false,
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelTextColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "labelTextColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.visible}}",
+  "key": "o2vo6m4r0d",
+  "label": "You having a good day?",
+  "labelPosition": "Left",
+  "labelTextColor": "{{appsmith.store.text}}",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onCheckChange": "",
+  "originalBottomRow": 7,
+  "originalTopRow": 3,
+  "parentColumnSpace": 14.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 40,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 3,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "7og0usx4uq",
+  "widgetName": "Checkbox1"
+}

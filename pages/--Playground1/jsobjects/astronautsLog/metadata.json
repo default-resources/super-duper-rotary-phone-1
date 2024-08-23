@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "62c6b8c50721a64d32ce5df8_62e39e357c27f57338da3649",
+  "id": "--Playground1_astronautsLog",
+  "unpublishedCollection": {
+    "name": "astronautsLog",
+    "pageId": "--Playground1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

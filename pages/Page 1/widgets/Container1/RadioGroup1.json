@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ekhr4wfb2d",
+  "label": "Catch block test",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "6",
+  "leftColumn": 46,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Yes",
+      "value": "Y"
+    },
+    {
+      "label": "No",
+      "value": "N"
+    }
+  ],
+  "parentColumnSpace": 17.625,
+  "parentId": "kk1k58hv9w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "choice"
+  ],
+  "topRow": 23,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "tdeulieh26",
+  "widgetName": "RadioGroup1"
+}

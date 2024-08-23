@@ -1,0 +1,55 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 71,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[\n  {\n    \"lat\": {{appsmith.store.lat}},\n  \"long\": {{appsmith.store.long}},\n    \"title\": \"User location\",\n    \"color\": \"red\"\n  }\n]",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "mapCenter"
+    },
+    {
+      "key": "defaultMarkers"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "mapCenter"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableCreateMarker": false,
+  "enablePickLocation": true,
+  "enableSearch": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
+  "isClickedMarkerCentered": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xpdrclix9k",
+  "leftColumn": 36,
+  "mapCenter": "{\n  \"lat\": {{appsmith.store.lat}},\n  \"long\": {{appsmith.store.long}}\n}",
+  "originalBottomRow": 71,
+  "originalTopRow": 42,
+  "parentColumnSpace": 13.75,
+  "parentId": "ijtgmtni2k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "topRow": 42,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "lvbo7v7lxh",
+  "widgetName": "Map1",
+  "zoomLevel": 10
+}

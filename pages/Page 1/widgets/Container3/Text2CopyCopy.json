@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 30,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yvaa42nezb",
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "SCROLL",
+  "parentColumnSpace": 14.062695503234863,
+  "parentId": "ijtgmtni2k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldTruncate": false,
+  "text": "<b>Use buttons on the left to trigger an API run and see dynamic data on displayed on relevant widgets (date, phone#, name, location etc...) </b>\n\n<b>Step 1:</b> Clear local store values by clicking on relevant button\n\n<b>Step 2:</b> Use <i>promise.all</i> function to trigger sequential store value actions\n\n<b>Step 3:</b> Use <i>then/catch</i> block to trigger second set of sequential store value actions to display content. (This function only triggers store value in <i>catch</i> block)",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 8,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "5zjwcuucs2",
+  "widgetName": "Text2CopyCopy"
+}

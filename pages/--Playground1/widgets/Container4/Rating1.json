@@ -1,0 +1,42 @@
+{
+  "activeColor": "#1e40af",
+  "animateLoading": false,
+  "bottomRow": 90,
+  "defaultRate": "{{astronautsLog.ratings.data}}",
+  "displayName": "Rating",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultRate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.914eb943f3f3762263872a333aff727d.svg",
+  "inactiveColor": "#D6D6D6",
+  "isAllowHalf": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "hv9pk8djb6",
+  "leftColumn": 6,
+  "maxCount": "5",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 13.75,
+  "parentId": "vn0hhhi9ah",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 26,
+  "searchTags": [
+    "stars"
+  ],
+  "size": "LARGE",
+  "tooltips": "[\n  \"Terrible\",\n  \"Bad\",\n  \"Neutral\",\n  \"Goods\",\n  \"Great\"\n]",
+  "topRow": 86,
+  "type": "RATE_WIDGET",
+  "widgetId": "fe0ylf714w",
+  "widgetName": "Rating1"
+}

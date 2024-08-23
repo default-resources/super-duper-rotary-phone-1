@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "{{Select1.selectedOptionValue}}",
+  "borderColor": "{{Select1.selectedOptionValue}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "7",
+  "bottomRow": 54,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lk4gyh2a8t",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 54,
+  "originalTopRow": 49,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.062695503234863,
+  "parentId": "kk1k58hv9w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "shouldTruncate": false,
+  "text": "Step 4: Selected colour is <b>{{appsmith.store.selected ?? 'blank'}}</b> and will default to <b>{{Select1.defaultOptionValue}} </b>after reset",
+  "textAlign": "CENTER",
+  "textColor": "#18181b",
+  "topRow": 49,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "iv3qlgn05v",
+  "widgetName": "Text1"
+}

@@ -1,0 +1,52 @@
+{
+  "allowClustering": false,
+  "allowZoom": true,
+  "animateLoading": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "{{TC5.locations}}",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "enablePickLocation": false,
+  "enableSearch": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
+  "isClickedMarkerCentered": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6ewoa3cy5w",
+  "leftColumn": 0,
+  "mapCenter": {
+    "lat": 28.6105073,
+    "long": 77.1145653,
+    "title": "394, Jail Rd, Nangal Village, Delhi Cantonment, New Delhi, Delhi 110010, India"
+  },
+  "originalBottomRow": 48,
+  "originalTopRow": 14,
+  "parentColumnSpace": 13.842965885996819,
+  "parentId": "92o1wf4kiz",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 36.57142857142857,
+  "topRow": 13,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "2ng48j802d",
+  "widgetName": "Map3",
+  "zoomLevel": 50
+}

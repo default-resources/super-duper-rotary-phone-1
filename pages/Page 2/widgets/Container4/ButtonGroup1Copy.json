@@ -1,0 +1,78 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#f3e8ff",
+      "buttonType": "SIMPLE",
+      "iconName": "heart",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Clear kitty",
+      "menuItems": {},
+      "onClick": "{{clearInterval('kitty')}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#fee2e2",
+      "buttonType": "SIMPLE",
+      "iconName": "cloud",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Clear doggo",
+      "menuItems": {},
+      "onClick": "{{clearInterval('doggo')}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.d6773218.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vnw8w44kcq",
+  "leftColumn": 19,
+  "orientation": "horizontal",
+  "originalBottomRow": 77,
+  "originalTopRow": 71,
+  "parentColumnSpace": 9.02128928899765,
+  "parentId": "hdrkhj2fvt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "topRow": 73,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "4nwrn0lnur",
+  "widgetName": "ButtonGroup1Copy"
+}

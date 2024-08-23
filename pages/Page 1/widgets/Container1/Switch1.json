@@ -1,0 +1,39 @@
+{
+  "accentColor": "#d4cab8",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "displayName": "Switch",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a3115bc1.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "633iji72ol",
+  "label": "Step 1:",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onChange": "",
+  "parentColumnSpace": 14.062695503234863,
+  "parentId": "kk1k58hv9w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 13,
+  "topRow": 11,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "0hmn8m90ei",
+  "widgetName": "Switch1"
+}

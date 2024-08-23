@@ -1,0 +1,99 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "groupButtons.groupButton0c5t9yzrfh.buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton0c5t9yzrfh.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton0c5t9yzrfh.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton0c5t9yzrfh": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton0c5t9yzrfh",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Both",
+      "menuItems": {},
+      "onClick": "{{TC4.both()}}",
+      "placement": "CENTER",
+      "widgetId": "r41vw4o7o3"
+    },
+    "groupButton1": {
+      "buttonColor": "#f3e8ff",
+      "buttonType": "SIMPLE",
+      "iconName": "heart",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Cat",
+      "menuItems": {},
+      "onClick": "{{TC4.cat()}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#fee2e2",
+      "buttonType": "SIMPLE",
+      "iconName": "cloud",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Dog",
+      "menuItems": {},
+      "onClick": "{{TC4.dog();}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.d6773218.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vnw8w44kcq",
+  "leftColumn": 17,
+  "orientation": "horizontal",
+  "parentColumnSpace": 9.02128928899765,
+  "parentId": "hdrkhj2fvt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 47,
+  "topRow": 8,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "cp1ku9sd4h",
+  "widgetName": "ButtonGroup1"
+}
